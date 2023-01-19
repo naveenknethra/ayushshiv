@@ -8,6 +8,13 @@ pipeline {
                 echo "Hello World"
                 }
             }
-        }
+            
+            stage ("2nd"){
+             steps{
+               hi
+             }
+            }
+       }
+        
     }
 
