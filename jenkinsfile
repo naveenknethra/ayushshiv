@@ -11,7 +11,7 @@ pipeline {
             
             stage ("2nd"){
              steps{
-               hi
+               echo " Hii "
              }
             }
        }
